@@ -1,0 +1,153 @@
+map<K, V> m;
+
+Constructor por defecto
+
+O(1)
+
+multimap<K, V> m
+
+Constructor por defecto
+
+O(1)
+
+map<K, V> m (aMap)
+
+Constructor de copia
+
+O(n)
+
+multimap<K, V>m (aMultimap)
+
+Constructor de copia
+
+O(n)
+
+m = aMap
+
+Asignación
+
+O(n)
+
+Inserción y borrado
+
+ 
+
+ 
+
+m[key] (sólo para map)
+
+Devuelve una referencia al valor asociado a key
+
+O(log n)
+
+m.insert(key_value_pair)
+
+Inserta un par con clave y valor dados
+
+O(log n)
+
+m.erase(key)
+
+Borra valor con clave asociada key
+
+O(log n)
+
+m.erase(iterator)
+
+Borra el valor al que apunta un iterador
+
+O(log n)
+
+Pruebas de inclusión
+
+ 
+
+ 
+
+m.size ()
+
+Número de elementos de la colección
+
+O(n)
+
+m.empty ()
+
+Cierto si la colección está vacía
+
+O(1)
+
+m.count(key)
+
+Número de elementos con clave key
+
+O(log n)
+
+m.find(key)
+
+Iterador sobre elemento con una clave dada
+
+O(log n)
+
+ 
+
+ 
+
+m.lower_bound(key)       (sólo para multimap)
+
+Iterador sobre la primera ocurrencia de un elemento con clave key
+
+O(log n)
+
+m.upper_bound(key)       (sólo para multimap)
+
+Iterador sobre el siguiente elemento después del último con clave key
+
+O(log n)
+
+m.equal_range(key)        (sólo para multimap)
+
+Par de iteradores formado por lower_bound y upper_bound
+
+O(log n)
+
+Iteradores
+
+ 
+
+ 
+
+map<K, V>::iterator itr
+
+Declara un nuevo iterador
+
+O(1)
+
+m.begin ()
+
+Iterador que referencia al primer elemento
+
+O(1)
+
+m.end ()
+
+Iterador que referencia al siguiente al último
+
+O(1)
+
+map<K, V>::reverse_iterator ritr
+
+Declara un nuevo reverse_iterator
+
+ 
+
+m.rbegin ()
+
+Reverse_iterator que referencia al último elemento
+
+O(1)
+
+m.rend ()
+
+Reverse_iterator que referencia al anterior al primero
+
+O(1)

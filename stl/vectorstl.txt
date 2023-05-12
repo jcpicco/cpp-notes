@@ -1,0 +1,87 @@
+fill (itetator start, iterator stop, value)
+
+Rellena el vector con un valor dado
+
+ 
+
+copy (iterator start, iterator stop, iterator destination)
+
+Copia una secuencia en otro
+
+ 
+
+max_element (iterator start, iterator stop)
+
+Busca el mayor valor de la colección
+
+ 
+
+min_element (iterator start, iterator stop)
+
+Busca el menor valor de la colección
+
+ 
+
+reverse (iterator start, iterator stop)
+
+Invierte los elementos en la colección
+
+ 
+
+count (iterator start, iterator stop, value, counter)
+
+Cuenta el número de elementos que coinciden con el valor e incrementa el contador
+
+ 
+
+count (iterator start, iterator stop, unary function counter)
+
+Cuenta el número de elementos que satisfacen la función e incrementa el contador
+
+ 
+
+transform (iterator start, iterator stop, iterator destination, unary function)
+
+Transforma los elementos utilizando la función y los situa en el destino indicado
+
+ 
+
+tind (iterator start, iterator stop, value)
+
+Busca un valor en la colección retornado un iterador a éste, si no lo encuentra retorna stop
+
+ 
+
+find_if (iterator start, iterator stop, unary function)
+
+Busca un valor que satisfaga la función retornado un iterador, si no lo encuentra retorna stop
+
+ 
+
+replace (iterator start, iterator stop, value, replacement value)
+
+Reemplaza todas las ocurrencias del valor con el valor de reemplazamiento
+
+ 
+
+replace (iterator start, iterator stop, unary function, replacement value)
+
+Reemplaza todas las ocurrencias que satisfacen la función con el valor de reemplazamiento
+
+ 
+
+sort (iterator start, iterator stop)
+
+Coloca los elementos en orden ascendente
+
+ 
+
+for_each (iterator start, iterator stop, function)
+
+Aplica la función a cada elemento de la colección
+
+ 
+
+iter_swap (iterator, iterator)
+
+Intercambia los valores especificados por ambos iteradores

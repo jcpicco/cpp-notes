@@ -1,0 +1,15 @@
+list<T>::reverse_iterator ritr
+
+Declara un nuevo reverse_iterator
+
+ 
+
+l.rbegin ()
+
+Reverse_iterator que referencia al último elemento
+
+O(1)
+
+l.rend ()
+
+Reverse_iterator que referencia al anterior al primero
